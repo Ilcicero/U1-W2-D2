@@ -53,20 +53,20 @@
   Crea un algoritmo che determini l'ammontare totale che deve essere addebitato all'utente per il checkout.
 */
 
-//  const shipping = 10
-
-//  let totalShoppingCart = 51
-//  if (totalShoppingCart > 50){
-//  } console.log("il totale è",totalShoppingCart, "euro (Spedizione gratuita)")
-// else (totalShoppingCart < 50){
-//   let shippingfee = totalShoppingCart + shipping
-// }console.log ("il totale è"shippingfee,"Spedizione inclusa ")
 
 
+const shipping = 10;
+let totalShoppingCart = 51;
+let shippingfee;
 
-//  if
-  //  let (totalWithShipping) = (totalShoppingCart) + (shipping)
-  //  console.log
+if (totalShoppingCart > 50) {
+  shippingfee = totalShoppingCart
+  console.log("Il totale è", shippingfee, "euro (spedizione gratuita)");
+} else {
+  let shippingfee = totalShoppingCart + shipping;
+  console.log("Il totale è", shippingfee, "euro (spedizione inclusa)");
+}
+
 
 
 
