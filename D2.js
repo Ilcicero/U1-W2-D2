@@ -55,17 +55,17 @@
 
 
 
-const shipping = 10;
-let totalShoppingCart = 51;
-let shippingfee;
+// const shipping = 10;
+// let totalShoppingCart = 43;
+// let shippingfee;
 
-if (totalShoppingCart > 50) {
-  shippingfee = totalShoppingCart
-  console.log("Il totale è", shippingfee, "euro (spedizione gratuita)");
-} else {
-  let shippingfee = totalShoppingCart + shipping;
-  console.log("Il totale è", shippingfee, "euro (spedizione inclusa)");
-}
+// if (totalShoppingCart > 50) {
+//   shippingfee = totalShoppingCart
+//   console.log("Il totale è", shippingfee, "euro (spedizione gratuita)");
+// } else {
+//   let shippingfee = totalShoppingCart + shipping;
+//   console.log("Il totale è", shippingfee, "euro (spedizione inclusa)");
+// }
 
 
 
@@ -184,9 +184,11 @@ if (totalShoppingCart > 50) {
 /* ESERCIZIO 14
   Scrivi del codice per creare un array inizialmente vuoto. Riempilo successivamente con i numeri da 1 a 10.
 */
-// let number = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+ let number = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+ number.push = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
 
-// console.log(number);
+
+console.log(number);
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
