@@ -91,6 +91,13 @@
 /* ESERCIZIO 8
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
 */
+// let valore = "1";
+
+// if (typeof valore !== "testo") {
+//   console.log("Il valore non è un numero");
+// } else  {
+//   console.log("Il valore è un numero");
+// }
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
